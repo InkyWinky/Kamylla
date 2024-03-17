@@ -1,0 +1,59 @@
+// 1. Your custom variables and variable overwrites.
+@import "theme/variables";
+
+// 2. Import default variables and available mixins.
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+@import "theme/button-mixins.scss";
+@import "theme/card-mixins.scss";
+@import "theme/navbar-mixins.scss";
+@import "theme/padding-mixins.scss";
+@import "theme/width-mixins.scss";
+
+@import "theme/globals";
+
+// 4. Import UIkit.
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+@mixin nth-children($points...) {
+  @each $point in $points {
+    &:nth-child(#{$point}) {
+      @content;
+    }
+  }
+}
+
+.text-input__loading {
+  &--line {
+    height: 10px;
+    margin: 10px;
+    animation: pulse 1s infinite ease-in-out;
+    @include nth-children(1) {
+      width: 500px;
+      height: 20px;
+    }
+    @include nth-children(2) {
+      width: 250px;
+    }
+    @include nth-children(3) {
+      width: 150px;
+    }
+    @include nth-children(4) {
+      width: 350px;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+  50% {
+    background-color: rgba(165, 165, 165, 0.3);
+  }
+  100% {
+    background-color: rgba(165, 165, 165, 0.1);
+  }
+}

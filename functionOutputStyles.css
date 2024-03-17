@@ -1,0 +1,29 @@
+/* COMPONENTS */
+h1, h2{
+    text-align: center;
+
+}
+
+div{
+    text-align: center;
+    padding: 40px;
+}
+
+/* CLASSES */
+.item-details{
+margin: auto;
+    height: 300px;
+    width: 500px;
+    border-style: dashed;
+    text-align: left;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.qty{
+    width: 40px;
+}
+.banner{
+    background-color: lightgrey;
+}
+/* IDs */

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Take Return Functionality Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="functionOutputStyles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Take and Return Functionality Page</h1>
+        <div>
+        <h2>Log in</h2>
+        <label>Scan/type in authcate: </label>
+        <input type="text" id="authcate" value = "aaam0001">
+    </div>
+    
+    <h2 class="banner"> Taking</h2>
+
+        <div class = "scan-location">
+            <h2>Scan Location</h1>
+            <label>Type in Location ID: </label>
+            <input type="text" id="take-location" value = "hk64wJju7uua8VN9UEwQiG6CTmW6BAUASFhHtg6Q4tz1G6GwJrWNh1YZwnPD">
+            <button id = 'scan-loc-take-btn'>Scan Location</button>
+        </div>
+        <hr>
+        <div class = "scan-item">
+            <h2>Scan Item</h2>
+            <label>Type in Item ID: </label>
+            <input type="text" id="take-item-id" value="2sTAck39KnCaUeCNhFSMLCQzsaWnENeGnZ5QWosrLMEuXb5LUXM26c">
+            <button id = "scan-item-btn">Scan Item</button>
+            <br>
+            <label for="">Adjust Qty: </label><input id="take-qty" class = "qty" type="number" value = 1>
+            <h3>Display Output:</h3>
+            <div class="item-details" id="item-details-return">
+                <p id="return-item-name">Item: </p>
+                <p id="return-item-location">Location(s):</p>
+                <p id="return-item-overall-stock">Overall Stock:</p>
+                <p id="return-item-inventory-stock">Inventory Stock:</p>
+                <p id="all-items"></p>
+                <p id="error-msg-take"></p>
+            </div>
+           <button id = "move-item-btn"> Move quantity</button>
+           <button id = "adjust-item-btn"> Adjust quantity</button>
+           <button id = "show-all-items-btn">Show all items at location</button>
+        </div>
+     
+        <h2 class = "banner">Returning</h2>
+     
+        <div class = "scan-return-item">
+
+            <h2>Scan Item</h2>
+
+            <label>Type in Item ID: </label>
+            <input id="return-item-id" type="text">
+            <button id = "scan-item-return">Scan Item</button>
+            <br>
+            <label for="">Adjust Qty: </label><input id="return-qty" class = "qty" type="number" value = 1>
+            <h3>Display Output:</h3>
+            <div class="item-details" id="item-details-take"><p></p></div>
+           <button id ="update-with-location">Update Items Based On Location</button>
+           <button id = "take-item"> Take Item </button>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="src\scripts\take_return.js" async defer></script>
+        <!-- <script src="src\scripts\dictionary.js" async defer></script> -->
+    </body>
+</html>

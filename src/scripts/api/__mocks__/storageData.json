@@ -1,0 +1,792 @@
+[
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "storage": {
+      "id": "4EVNbmxbyvkfu7eVhaSHuNzVMpAA4WrVF1Umx1gNZP1WeADaj1TiNPe5y8JL",
+      "name": "Shelf",
+      "notes": "",
+      "hidden": true,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Shelf"
+    },
+    "sid": "st_DN1rvPbjXTAU7us2qZ8ysP"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "storage": {
+      "id": "GJzKYrgseRvkNgFpm845wViT345zqoZxWpJUhqg8CC8uRzVctyJCzPZARkwV",
+      "name": "A",
+      "notes": "",
+      "hidden": true,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Shelf - A"
+    },
+    "sid": "st_2Teu6mFqcYxcXtm5xPU8Pw"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": "2021-07-11T16:28:20+10:00",
+    "type": "storage",
+    "updated_by": {
+      "email": "sanok59629@advew.com",
+      "name": "Monash"
+    },
+    "storage": {
+      "id": "2PTzkgK15xZNhSPZ5tmBWTqCpBpEFMPGrXrTzaavAZ7MpvTvnTEBy5xCvpbfj",
+      "name": "A1",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "description": "TEST DESCRIPTION\nhere\nanother line",
+      "fullName": "Shelf - A - A1"
+    },
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "sid": "st_WveFgejuxnyggWWdVVtwZp"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "storage": {
+      "id": "2RQdPNrydbwvVBuarHV5wfBja7voEsoR7mPZdS5ni7YBZza77S87p3iiJGqGK",
+      "name": "A2",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Shelf - A - A2"
+    },
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "sid": "st_9cyFmDykBs2w4iJjA6PCqg"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": "2021-07-13T23:30:07+10:00",
+    "type": "storage",
+    "updated_by": {
+      "email": "sanok59629@advew.com",
+      "name": "Monash"
+    },
+    "storage": {
+      "id": "fYpBFbtSo1fcWSRYocmQiWphAyLzRhUj2QSYQxzjpG3buXNCbqqwZH8hs1JP",
+      "name": "A3",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "description": "short",
+      "fullName": "Shelf - A - A3"
+    },
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "sid": "st_uFD2xBYdcepHu8C5Lic2p"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "storage": {
+      "id": "2QXbi2CC11zLGezz2DRf5q5u7jxGjpbm5mQw4FLXwF3nLYzEKWMnzHf8tNZct",
+      "name": "B",
+      "notes": "",
+      "hidden": true,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Shelf - B"
+    },
+    "sid": "st_LTM4A7k9HKkS12oL1XR1Jm"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "storage": {
+      "id": "2LtYS53dKbPywiKGRtCjcAQxosfcU7bKbVxbmACMancMDcTc6XK2NgtFdzmmT",
+      "name": "B1",
+      "notes": "",
+      "hidden": false,
+      "isFull": true,
+      "limitedTo": null,
+      "fullName": "Shelf - B - B1"
+    },
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "sid": "st_GSi8kb3QNMadSF7RFMtFyS"
+  },
+  {
+    "created_at": "2020-11-11T17:31:41+00:00",
+    "updated_at": null,
+    "type": "storage",
+    "created_by": {
+      "email": "mario@rasgo.cc",
+      "name": "Mario Ribeiro"
+    },
+    "storage": {
+      "id": "2PDEWqwysANw5zGm1sXVxWzv6MbJmYYHuGKkDyDkkVBWeufji9FL8nn9FMfw5",
+      "name": "B2",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Shelf - B - B2"
+    },
+    "sid": "st_V6GGDHvjuSCXrbzNM2Rk6X"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "storage": {
+      "id": "2EoPVDQRSjUZu133EcWh6YkEmsGic1ctLFkHY1tWCt6ekry7D9o3EhCjK74kX",
+      "name": "jsmi0001",
+      "description": "12345678",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - jsmi0001"
+    },
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "sid": "st_5p8Pnbu8oh7ncvSyio7fjU"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "storage": {
+      "id": "u72yMdttEBnesc3Ufh5qQPdyZLSpUKAnoP9sBgvXKpi3mnNha2PcmVDb8LUt",
+      "name": "japp0001",
+      "description": "23456789",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - japp0001"
+    },
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "sid": "st_WRGG2w1MUij3iREsLXsWLJ"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "h51Gw2m5YS1FhrxLRjFr57nWEjkKSX3La7hhbJJQQcfMWStCt7yYwTgJ7tCo",
+      "name": "Users",
+      "description": "",
+      "notes": "",
+      "hidden": true,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users"
+    },
+    "sid": "st_7wjbqKuqprNKduCaUvUshy"
+  },
+  {
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "type": "storage",
+    "sid": "st_TjBMpgahpxm7UGfG9RzHLT",
+    "updated_at": "2021-08-05T17:37:09+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "nh6HJQrwLvxfn5obii9kEmy3Mk9Dd1Cvpptq3ybYCHenfwNAf7YAXbBXcuQB",
+      "name": "dgon0006",
+      "description": "32518900",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - dgon0006"
+    },
+    "updated_by": {
+      "email": "pakb0001@student.monash.edu",
+      "name": "Emile Akbarzadeh"
+    }
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "2Pu5uPFA8UN86Vvwhx3iRxpDvhvg7BfSdsnxEz2KTNeeguNUdva1sYDoALhED",
+      "name": "ksim0010",
+      "description": "57799662",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - ksim0010"
+    },
+    "sid": "st_3mWW1UA3fVSgdLpbB4SfJZ"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "29sXRaN5VkvLuANhVJEAPmkff4WbMnmnMh2yFkxGcFuA55w2VFsoD3ykr5c3k",
+      "name": "zaba9999",
+      "description": "72047237",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - zaba9999"
+    },
+    "sid": "st_HiJR58L1B9RL5Ak78h4VxC"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "2379yxJDboDzYcdsEHfRYwb93Bwk9woqaJ3hDuKRPgffaJMBg4BQwLuJdAaEb",
+      "name": "azzz9999",
+      "description": "80056395",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - azzz9999"
+    },
+    "sid": "st_8bejZ6Vtx7gYsWHouR1UWk"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "w43frPYcaJMLPSKN4oFAg9PU3gzkgKXMc7EoceFoQ1wmmdcVPnM5TKc2jK3c",
+      "name": "ookd1119",
+      "description": "37591446",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - ookd1119"
+    },
+    "sid": "st_UM4T6fV9bgZnKcVoMWk4V"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "YM7YautVHW6mPZV6fHkDDt1DsYs4e43dkdzyqMgACQw4BqLucyN2m5cZRiXD",
+      "name": "dsni1129",
+      "description": "35508495",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - dsni1129"
+    },
+    "sid": "st_7ZF9mWSv9ESTZBpfys3une"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "storage": {
+      "id": "zoGhHVDxX7fFTwc7jsgkwpN88qE8jEbDo9SvGs2qX6xM7qCWgcaubbERBxvF",
+      "name": "abso0010",
+      "description": "49601187",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - abso0010"
+    },
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "sid": "st_7RYaPBisQmHbMKDuUcq1z3"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "storage": {
+      "id": "2CzQp6uDky6nfPBJXQi6hkbupqkzzGDHT6wMhckks3m1oKpfbu757NXRciuHE",
+      "name": "bbba0020",
+      "description": "17699258",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - bbba0020"
+    },
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "sid": "st_jv6KvDgXcjqjMQM3zDsov"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "storage": {
+      "id": "rRHcFjNNERaHn2Xf9F9JApmGSq3H4mskYeio3MoGkNc3SYqKikdVqNiprxua",
+      "name": "aaam0001",
+      "description": "29923996",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - aaam0001"
+    },
+    "sid": "st_3E3k2622wohabnYciusaWi"
+  },
+  {
+    "type": "storage",
+    "created_at": "2021-07-16T14:13:47+10:00",
+    "storage": {
+      "id": "22SY26HL3PV2wjy9qfBczfDkqMnMjNRyLYM189BVJs5nvGJ1sZ4D81F4ELfkz",
+      "name": "ksdf2211",
+      "description": "99609386",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - ksdf2211"
+    },
+    "created_by": {
+      "email": "rixeca1991@nhmty.com",
+      "name": "Bob"
+    },
+    "sid": "st_4AauRP82hAsE3XL7qkd9d1"
+  },
+  {
+    "type": "storage",
+    "sid": "st_DN9EEf8mw9gRz7sL7jiCvY",
+    "created_at": "2021-08-18T14:04:14+10:00",
+    "storage": {
+      "id": "27xqQBGP9dM4jejNNwn8A1gpwNVngyAq8DnfoQdmUexg1WTwfQy7HTLjUsCkN",
+      "name": "test1234",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - test1234"
+    },
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    }
+  },
+  {
+    "created_at": "2021-08-01T01:21:35+10:00",
+    "type": "storage",
+    "updated_at": "2021-08-01T01:22:33+10:00",
+    "created_by": {
+      "email": "pakb0001@student.monash.edu",
+      "name": "Emile Akbarzadeh"
+    },
+    "storage": {
+      "id": "yz8wm2skV4cicPuJHyLirD4VCY1YDXYjsDXweFhhTfKHYczVKmAjqXCjnwGY",
+      "name": "pakb0001",
+      "description": "3060280701",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - pakb0001"
+    },
+    "updated_by": {
+      "email": "pakb0001@student.monash.edu",
+      "name": "Emile Akbarzadeh"
+    },
+    "sid": "st_XTFA43staTX37YCDJvTdmy"
+  },
+  {
+    "type": "storage",
+    "sid": "st_BoK1d3pTGwoWFSBfKZwAKG",
+    "created_at": "2021-08-01T01:53:12+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "2A9cvXe5nSVHXhjhb8YC88DYhxqF31jHPUw8SqMEeL8KyC8T3RvDjMzEfMqnV",
+      "name": "test1212",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - test1212"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_NHzLhiw2LeYmEUwrEZkFmA",
+    "created_at": "2021-08-01T18:04:21+10:00",
+    "storage": {
+      "id": "e13ZyDo98BJiEwtrcBjEw2XDuTuWk1kLRQRkrXCJM3SaKJSeDUacd3qTcq99",
+      "name": "test5555",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - test5555"
+    },
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_22FP8LfsfG2HZ15vGz7Fse",
+    "created_at": "2021-08-01T19:01:04+10:00",
+    "storage": {
+      "id": "2RQPJHt6gdDnQE1LrycxpoiCnUG5JwFfZqrHZVpNuzRMsBNehanbfQ88RSmBC",
+      "name": "this1234",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - this1234"
+    },
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_3ETvvtrzmryGXbBiJ1LPRa",
+    "created_at": "2021-08-01T23:17:39+10:00",
+    "storage": {
+      "id": "isk8JkW2YN5PhXUPZjTo35StEYiJPcUe2wyP3YS1Je6RzMzBHtvejuVuq6A9",
+      "name": "four4444",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - four4444"
+    },
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_S7ngygZZj6sTq4oY6XSTNM",
+    "created_at": "2021-08-05T17:01:36+10:00",
+    "storage": {
+      "id": "8GWxwdw57Tph7s3Lds3GMHZn9S9oHufgNAkKAAG4nYrmxmjt59g4Y5FPqqR3",
+      "name": "five5555",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - five5555"
+    },
+    "created_by": {
+      "email": "pakb0001@student.monash.edu",
+      "name": "Emile Akbarzadeh"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_E7REDaNrBQUnAKwgFP8mEB",
+    "created_at": "2021-08-05T17:40:01+10:00",
+    "storage": {
+      "id": "JEcsMVyML5Y1Ua815DzcV1aeNDucb53QtYoTrbjaZ7MmD1AxdpKhxEPfmpqD",
+      "name": "mari0000",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - mari0000"
+    },
+    "created_by": {
+      "email": "pakb0001@student.monash.edu",
+      "name": "Emile Akbarzadeh"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_ARGzd2uigm9BhN9bwLFy43",
+    "created_at": "2021-08-05T21:41:22+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "21tjYB9QiBLPybYd6nHer5322M5wiQ9hHK6WFogETh1y2EwL7eX3QsNscpBAB",
+      "name": "okay1234",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - okay1234"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_RVkRWCy6U3WQuK2ktmRz8e",
+    "created_at": "2021-08-07T17:08:49+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "LgZtzs6DkvCLWj67Tcjs6XxWYgJJsWSmmtwD6EGT8XfqNbnjUp6nTAtFbmiQ",
+      "name": "oiyo1234",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - oiyo1234"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_B2rwY8wnLGoFk5Q64PmYWj",
+    "created_at": "2021-08-07T17:15:57+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "27JwAQYxbVR5F4siNse5aWzkeVS7Cxy8EFCjyNX9c6MAun845yQ99WGxJr92b",
+      "name": "hmmm6969",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - hmmm6969"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_2ztMveCuDnYHsuPWpndqNL",
+    "created_at": "2021-08-07T17:51:05+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "nG3qr9QkX3nMugwrNrBoCGA5UWmjnuYkNZh9qy9At83jaa4PkqvStjJdYwB9",
+      "name": "dots1928",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - dots1928"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_9DNSMbWRWaeDRmBRvwzgc2",
+    "created_at": "2021-08-22T14:57:09+10:00",
+    "storage": {
+      "id": "W35tcxPZHeunNCDKWEWimPt7wioueBGgh6srubamztVeCBbYJrwNXFANet4V",
+      "name": "COMP",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "COMP"
+    },
+    "created_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_8GFNfw1hyBEatZm5wuBF6r",
+    "created_at": "2021-08-22T14:57:28+10:00",
+    "storage": {
+      "id": "vYaUuQu2dM5wRcB8bsz4oyZ9kuXwz1Mjz2VLoS1zRyFyBRk592Z6ACMYLgP1",
+      "name": "1",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "COMP - 1"
+    },
+    "created_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    }
+  },
+  {
+    "created_at": "2021-08-22T14:57:35+10:00",
+    "type": "storage",
+    "sid": "st_KMN8DQvT9YZHReUeCdeqm1",
+    "updated_at": "2021-08-31T17:23:07+10:00",
+    "created_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    },
+    "storage": {
+      "id": "YG8bShMgH9fMg2tZeg7psSbr9TmsRnUm71F1d7657TykH9aB1Mi2h6ySg2Uy",
+      "name": "A2",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "COMP - 1 - A2"
+    },
+    "updated_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_VLD5UgqgNWKgUr88YSU9ja",
+    "created_at": "2021-08-24T15:35:21+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "axT4N21wDL4uj55STDsyrwcfiPPTxPYAtTm4itbErtYtsKJumbwX7bTnXQ8K",
+      "name": "test7777",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - test7777"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_KjK57jgmBBzktEZGthw7mM",
+    "created_at": "2021-08-24T23:42:11+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "XHey4xaSFvzXpS48wzwqKmjkmx8fFWnDMCBRihwLtDhJonD9xsd28yceecoi",
+      "name": "dave1234",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - dave1234"
+    }
+  },
+  {
+    "type": "storage",
+    "sid": "st_H359koqotRCWtqzJgZ7dvk",
+    "created_at": "2021-08-26T16:02:13+10:00",
+    "created_by": {
+      "email": "dgon0006@student.monash.edu",
+      "name": "Dylan"
+    },
+    "storage": {
+      "id": "29D3Y1nFBbJw2ttibps8brKQzTacC9UdU8XxMhP3AnFHk1uMxgfpimEVrNmE2",
+      "name": "test9999",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "Users - test9999"
+    }
+  },
+  {
+    "created_at": "2021-08-31T17:22:37+10:00",
+    "type": "storage",
+    "sid": "st_GVEKiw47ndjmskJfwZD6pb",
+    "updated_at": "2021-08-31T17:23:03+10:00",
+    "created_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    },
+    "storage": {
+      "id": "bb6WwdspftJAnuEcQPjnjnKMhHbbrsBXGqZFGkj67kveQUYYT63LYaoDXQvq",
+      "name": "A1",
+      "description": "",
+      "notes": "",
+      "hidden": false,
+      "isFull": false,
+      "limitedTo": null,
+      "fullName": "COMP - 1 - A1"
+    },
+    "updated_by": {
+      "email": "tlou0003@student.monash.edu",
+      "name": "Timothy Louey"
+    }
+  }
+]
