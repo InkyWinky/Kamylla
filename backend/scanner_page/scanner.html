@@ -1,0 +1,141 @@
+s<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="scannerPage.css" />
+  </head>
+  <body onbeforeunload="return unloadFunction()">
+    <div id="testPage">
+      <div>
+        <h1>Scanner Test Page for Kamylla</h1>
+        <label for="port">Server Socket:</label>
+        <input
+          type="text"
+          id="server"
+          name="server"
+          pattern="[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+"
+          title="Enter a valid websocket"
+          disabled
+        />
+        <button id="change-button" onclick="changeAddress()">Change</button>
+        <p id="websocket-status"></p>
+        <br /><br />
+        <b>STORAGE IDs for Testing</b><br />
+        <p>
+          Shelf-A-A1:<span id="s1"
+            >276EbPbYx3XU2kruzgHdvsL3xSPkZq4G47zvsFUH3aBN6SPiSLD6uBVonXDZ3</span
+          >
+          <button onclick="setToScan('s1')">Scan</button>
+        </p>
+        <p>
+          Shelf-A-A2:<span id="s2"
+            >MATwa3dWDsiCPuAf1bvhTf7WebMLMc7XH2W4KUmLbME3BhbLz3W3rULEJuGC</span
+          ><button onclick="setToScan('s2')">Scan</button>
+        </p>
+        <p>
+          Shelf-A-A3:<span id="s3"
+            >uzd4u9564dS28Kz9XhdGBW7VsgWr1Y6U2vpELYDpXa5PD5ygjaYZSbNj2MFJ</span
+          ><button onclick="setToScan('s3')">Scan</button>
+        </p>
+        <p>
+          Shelf-B-B2:<span id="s4"
+            >HhocoExWrgKfqj4tFruT5Q3jqaCMLU8dGUcEN3S9pnD4HYxSnU4xSaEaMFcq</span
+          ><button onclick="setToScan('s4')">Scan</button>
+        </p>
+      </div>
+      <b>PART IDs for Testing</b><br />
+      <p>
+        IN Shelf-A-A1: "Cap Ceramic 47pF 25V C0G 10% SMD 0603 125C Automotive
+        T/R" -->
+        <span id="p1"
+          >2VcCEDtfedozUWhfV1AwZthd61VqU2CDS3uaMTQcaGNo6nbrnrkXTj</span
+        >
+        <button onclick="setToScan('p1')">Scan</button>
+      </p>
+      <p>
+        "Enclosure: for USB; X: 30mm; Y: 65mm; Z: 15.5mm; ABS; transparent" -->
+        <span id="p2"
+          >7QBqkSnFPN9fYrUHRALXkDtV2YX598cKSnd7GHVB79yCkLtLFqmWDpF</span
+        ><button onclick="setToScan('p2')">Scan</button>
+      </p>
+      <p>
+        IN Shelf-A-A3: Microchip 24AA01T-I/OT Serial EEPROM Memory, 1kb, 3500ns,
+        1.7 to 5.5V 5-Pin SOT-23 -->
+        <span id="p3"
+          >HN5gcgDTMGZ3nowkPHgDJfs3AJ1v8z4iN8GMD68jDbUzu5JTgtBx1fYGrwq</span
+        ><button onclick="setToScan('p3')">Scan</button>
+      </p>
+      <p>
+        IN shelf-B-B2: 0603 22pF 50V ±5 % Tolerance C0G SMT Multilayer Ceramic
+        Capacitor -->
+        <span id="p4"
+          >6rUHgsCrd1VL8PM6HvJ3bYdiYp3xWnnvMqazS3KNi3GQ8AGtEWTLwouaGzpSpaL</span
+        ><button onclick="setToScan('p4')">Scan</button>
+      </p>
+      <br /><br />
+      <br />
+
+      <br /><br />
+      FYI these part IDs assume you have that part in that location, and all
+      these IDs may differ for different workspaces
+
+      <br />
+      <p>Please keep this page in focus when scanner is required</p>
+      <div>
+        <input
+          type="text"
+          id="debug-scanner"
+          placeholder="Type or paste scanner into me and press enter"
+        />
+      </div>
+      <style>
+        button {
+          margin-left: 10px;
+        }
+      </style>
+      <div id="footer">
+        <button onclick="switchPages()">Go to main page</button>
+      </div>
+    </div>
+
+    <div id="mainPage">
+      <div id="headingDiv">
+        <h1 id="logo">KAMYLLA</h1>
+      </div>
+      <div id="subheadingDiv">
+        <h2 id="subheading">
+          Please keep this page in focus while using the scanner
+        </h2>
+      </div>
+      <div id="statusDIv">
+        <h3 id="statusText">
+          Status: <span id="websocket-status2">Disconnected</span>
+        </h3>
+      </div>
+      <img id="disconnectedIcon" src="" alt="" />
+      <img id="connectedIcon" src="" alt="" />
+      <img id="connectingIcon" src="" alt="" />
+      <img src="" alt="" />
+      <!--[if lt IE 7]>
+        <p class="browsehappy">
+          You are using an <strong>outdated</strong> browser. Please
+          <a href="#">upgrade your browser</a> to improve your experience.
+        </p>
+      <![endif]-->
+      <div id="footer">
+        <button onclick="switchPages()">Go to testing page</button>
+      </div>
+      <!-- <script src="scannerPage.js" async defer></script> -->
+    </div>
+    <script src="scanner.js"></script>
+    <script src="testingAid.js"></script>
+  </body>
+</html>

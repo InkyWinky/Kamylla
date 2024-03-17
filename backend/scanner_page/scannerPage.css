@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+body{
+    height: 100vh;
+    width: 100wh;
+    padding: 0;
+
+}
+#mainPage {
+    background-color: #008cc9;
+    margin: 0;
+    display: none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+#logo {
+    font-size: 8em;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0
+}
+
+#subheading {
+    font-size: 2em;
+    color: rgb(241, 241, 204);
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}
+#statusText {
+    font-size: 1.5em;
+    color: rgba(193, 186, 252, 0.856);
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+}
+#headingDiv{
+    margin-top: 15%;
+    padding: 0;
+    margin-bottom: 1.5%
+}
+#subheadingDiv{
+    margin-bottom: 3%
+}
+#statusDiv{
+    margin-top: 2%
+}
+
+#disconnected {
+    color: rgba(193, 186, 252, 0.856);
+}
+
+#footer{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
