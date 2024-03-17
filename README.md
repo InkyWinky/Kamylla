@@ -18,7 +18,7 @@ Kamylla is the Monash UAS Inventory Management web app which utilises the BOMIST
 * Searching for parts
 
 **Project brief**: https://docs.google.com/document/d/1JiUWvmJ_jHBmSLAZnOGHlpiCzqR_JFdqMIz5UdF8VRc/edit <br/>
-**Training on using Kamylla**: (will be released later)
+**Training on using Kamylla**: https://inventory-s-school.thinkific.com/
 
 <br/>
 
